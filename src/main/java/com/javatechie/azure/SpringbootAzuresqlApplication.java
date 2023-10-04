@@ -16,7 +16,11 @@ public class SpringbootAzuresqlApplication {
 	@Autowired
     private EmployeeRepository repository;
 
- 
+ @GetMapping("/satyam")
+	public String data()
+	{
+		return "hello satyam";
+	}
 
     @PostMapping("/employee")
     public Employee addEmployee(@RequestBody Employee employee) {
