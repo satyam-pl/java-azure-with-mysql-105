@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://javatechie.database.windows.net:1433;database=javatechiedb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://java-azure-sqldb-server-103.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;  
     username: satyam_azure
     password: patel@20000
   jpa:
@@ -10,5 +10,5 @@ spring:
       dialect : org.hibernate.dialect.SQLServer2012Dialect
 
 server:
-  port: 9191
+  port: 8080
 
